@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/student.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Dashboard</h1>
+            <p>one place for all information.</p>
+
+            <nav class="site-nav">
+                <ul class="group">
+                    <li><a href="#">Apply For New Course</a></li>
+                    <li><a href="{{url_for('student_status',student_email=std_email)}}">Status</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content-area group">
+
+            <div class="main-area">
+                <h2>Register For The New Course</h2>
+
+                <p>Fill the below form and click Apply to register for the new courese.</p>
+
+                <form action="/apply_course" method="POST">
+
+                    <label for="fname"><b>First Name</b></label>
+                    <input type="text" placeholder="First Name" name="fname" id="fname" required>
+
+                    <label for="lname"><b>Last Name</b></label>
+                    <input type="text" placeholder="Last Name" name="lname" id="lname" required>
+
+                    <label for="fathername"><b>Father Name</b></label>
+                    <input type="text" placeholder="Father Name" name="fathername" id="fathername" required>
+
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+                    <label for="hqual"><b>Highest Qualification</b></label>
+                    <select name="hqual" id="hqual">
+                        <option value="selectq">Select</option>
+                        <option value="btech">BTech</option>
+                        <option value="mba">MBA</option>
+                        <option value="mca">MCA</option>
+                        <option value="bca">BCA</option>
+                      </select>
+
+
+                    <label for="scourse"><b>Select Course</b></label>
+                    <select name="scourse" id="scourse">
+                        {% for i in courseNameList %}
+                        <option value={{i}}>{{i}}</option>
+                        {% endfor %}
+                      </select>
+
+                    <input type="submit" value="Apply">
+
+                    
+
+                </form>
+
+                <p>After applying for the course, your application will be submitted for initial review. Once approved interview will be scheduled for the next step. Request you to keep checking the status tab for the update related to your application.</p>
+            </div>
+
+            
+
+        </div>
+
+        <footer>
+            <p>&copy; 2021 - University Admission System.</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

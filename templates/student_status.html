@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/student.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Dashboard</h1>
+            <p>one place for all information.</p>
+
+            <nav class="site-nav">
+                <ul class="group">
+                    <li><a href="#">Apply For New Course</a></li>
+                    <li><a href="#">Status</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content-area group">
+
+            <div class="main-area">
+                <h2>List of Applied Course</h2>
+                <p>Find below the list of applied course</p>
+                <hr>
+                <br>
+                <table border = 1>
+                    <tr>
+                       <th>Application id</th>
+                       <th> Date </th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Father Name</th>
+                        <th>Email</th>
+                        <th>Qualification</th>
+                        <th>Course Name</th>
+                        <th>Status</th>
+                    </tr>
+                 {% for i in appliedcourselist %}
+
+                    <tr>
+                       <td> {{ i.application_id }} </td>
+                        <td> {{ i.applied_date }} </td>
+                         <td> {{ i.std_first_name }} </td>
+                         <td> {{ i.std_last_name }} </td>
+                         <td> {{ i.std_father_name }} </td>
+                         <td> {{ i.std_email }} </td>
+                         <td> {{ i.std_qualification }} </td>
+                         <td> {{ i.course_name }} </td>
+                        <td> {{ i.status }} </td>
+                    </tr>
+                 {% endfor %}
+                 </table>
+
+                <p>After applying for the course, your application will be submitted for initial review. Once approved interview will be scheduled for the next step. Request you to keep checking the status tab for the update related to your application.</p>
+            </div>
+
+
+
+        </div>
+
+        <footer>
+            <p>&copy; 2021 - University Admission System.</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

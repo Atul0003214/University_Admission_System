@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Course Delete</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/faculty.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Dashboard</h1>
+            <p>one place for all information.</p>
+
+            <nav class="site-nav">
+                <ul class="group">
+                    <li><a href="{{url_for('faculty_dashboard_home')}}">Course Management</a></li>
+                    <li><a href="/faculty_status">Status</a></li>
+                    <li><a href="/contact_us">Contact Us</a></li>
+                </ul>
+            </nav>
+            <b><hr></b>
+            <nav class="site-nav">
+                <ul class="group">
+                    <li><a href="{{url_for('faculty_dashboard_home')}}">New Course</a></li>
+                    <li><a href="{{url_for('modify_course')}}">Modify Course</a></li>
+                    <li><a href="{{url_for('delete_course')}}">Delete Course</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content-area group">
+
+            <div class="main-area">
+                <h2>Delete The Course</h2>
+                <p>Select course name to delete the course.</p>
+                <form action="/delete_selected_course" method="POST">
+                    <label for="c_id_to_delete"><b>select course to delete</b></label>
+                    <select name="c_id_to_delete" id="c_id_to_delete">
+                        {% for i in courseNameList %}
+                        <option value={{i}}>{{i}}</option>
+                        {% endfor %}
+                      </select>
+                    <input type="submit" value="Delete">
+
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2014 - University Admission System.</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/faculty.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Dashboard</h1>
+            <p>one place for all information.</p>
+
+            <nav class="site-nav">
+                <ul class="group">
+                    <li><a href="{{url_for('faculty_dashboard_home')}}">New Course</a></li>
+                    <li><a href="{{url_for('modify_course')}}">Modify Course</a></li>
+                    <li><a href="{{url_for('delete_course')}}">Delete Course</a></li>
+                </ul>
+            </nav>
+            
+            
+        </header>
+
+        <div class="content-area group">
+
+            <div class="main-area">
+                <h2>Find below the details to connect with us.</h2>
+
+                <p>Email: test@email.com</p>
+                <p>Mobile: +91 90000000000</p>
+
+                
+
+                <p>contact us</p>
+            </div>
+
+            
+
+        </div>
+
+        <footer>
+            <p>&copy; 2014 - University Admission System.</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

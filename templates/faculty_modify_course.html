@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Course Modify</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/faculty.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Dashboard</h1>
+            <p>one place for all information.</p>
+
+            <nav class="site-nav">
+                <ul class="group">
+                    <li><a href="{{url_for('faculty_dashboard_home')}}">Course Management</a></li>
+                    <li><a href="/faculty_status">Status</a></li>
+                    <li><a href="/contact_us">Contact Us</a></li>
+                </ul>
+            </nav>
+            <b><hr></b>
+            <nav class="site-nav">
+                <ul class="group">
+                    <li><a href="{{url_for('faculty_dashboard_home')}}">New Course</a></li>
+                    <li><a href="{{url_for('modify_course')}}">Modify Course</a></li>
+                    <li><a href="{{url_for('delete_course')}}">Delete Course</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content-area group">
+
+            <div class="main-area">
+                <h2>Modify The Course</h2>
+
+                <p>Select the course to modify</p>
+
+                <form action="/modify_selected_course" method="POST">
+                    <label for="c_id_to_modify"><b>select course to modify</b></label>
+                    <select name="c_id_to_modify" id="c_id_to_modify">
+                        {% for i in courseNameList %}
+                        <option value={{i}}>{{i}}</option>
+                        {% endfor %}
+                      </select>
+
+                    <label for="emdes"><b>Enter Modified Description</b></label>
+                    <input type="text" placeholder="Enter Modified Description" name="emdes" id="emdes" required>
+                  
+                    <input type="submit" value="Modify">                   
+                </form>
+            </div>
+
+            
+
+        </div>
+
+        <footer>
+            <p>&copy; 2014 - University Admission System.</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

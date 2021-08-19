@@ -1,0 +1,82 @@
+<style>
+           html {
+            background-color: #869960;
+        }
+
+        .parent-container {
+            
+            max-width: 1300px;
+            padding: 20px 50px;
+            margin: 40px auto 0 auto;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+
+        .left-side {
+            display: flex;
+            flex: 2;
+        }
+
+        .right-side {
+            flex: 1;
+        }
+
+        .img-center {
+
+            margin: auto;
+        }
+
+        .shift_right{
+            text-align: right;
+        }
+        .shift_right p{
+            margin: 0px;
+        }
+        .form-container {
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+            font-size: 15px;
+            width: 30em;
+            padding: 1em;
+            border: 2px solid #ccc;
+        }
+
+
+        .form-container label {
+            padding: 0;
+            font-weight: bold;
+            text-align: left;
+            display: block;
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="password"] {
+
+            width: 60%;
+            border: 1px solid #ccc;
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+            font-size: 0.9em;
+            padding: 0.3em;
+        }
+
+        .form-container button {
+            padding: 1em;
+            border-radius: 0.5em;
+            background: #eee;
+            border: none;
+            font-weight: bold;
+            margin-left: 40%;
+
+
+        }
+
+        .form-container button:hover {
+            background: #ccc;
+            cursor: pointer;
+        }
+        .form-container h1{
+            margin: 0px;
+        }
+     
+</style>

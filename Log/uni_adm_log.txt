@@ -1,0 +1,129 @@
+19-08-2021 01:31:14 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 01:31:14 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 01:31:14 - close_connection - INFO - connection closed successfully
+19-08-2021 01:31:42 - send_email - INFO - 'mail'
+19-08-2021 01:33:44 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 01:33:44 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 01:33:44 - close_connection - INFO - connection closed successfully
+19-08-2021 01:33:48 - send_email - INFO - 'mail'
+19-08-2021 01:36:14 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 01:36:14 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 01:36:14 - close_connection - INFO - connection closed successfully
+19-08-2021 01:36:20 - send_email - INFO - 'mail'
+19-08-2021 01:38:44 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 01:38:44 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 01:38:44 - close_connection - INFO - connection closed successfully
+19-08-2021 01:38:46 - send_email - INFO - signal only works in main thread of the main interpreter
+19-08-2021 01:49:22 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 01:49:22 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 01:49:22 - close_connection - INFO - connection closed successfully
+19-08-2021 01:50:08 - send_email - INFO - 'mail'
+19-08-2021 01:53:34 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 01:53:34 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 01:53:34 - close_connection - INFO - connection closed successfully
+19-08-2021 01:53:40 - send_email - INFO - 'mail'
+19-08-2021 01:58:18 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 01:58:18 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 01:58:18 - close_connection - INFO - connection closed successfully
+19-08-2021 01:58:31 - send_email - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+19-08-2021 02:01:33 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 02:01:33 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 02:01:33 - close_connection - INFO - connection closed successfully
+19-08-2021 02:01:44 - send_email - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+19-08-2021 02:04:39 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 02:04:39 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 02:04:39 - close_connection - INFO - connection closed successfully
+19-08-2021 02:04:45 - send_email - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+19-08-2021 02:07:34 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 02:07:34 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 02:07:35 - close_connection - INFO - connection closed successfully
+19-08-2021 02:07:40 - send_email - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+19-08-2021 02:12:46 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 02:12:46 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 02:12:47 - close_connection - INFO - connection closed successfully
+19-08-2021 02:16:09 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 02:16:09 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 02:16:10 - close_connection - INFO - connection closed successfully
+19-08-2021 03:22:19 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 03:22:19 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 03:22:19 - close_connection - INFO - connection closed successfully
+19-08-2021 05:51:21 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 05:51:21 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id from university_admission_system.Registered_Course_Table;
+19-08-2021 05:51:21 - close_connection - INFO - connection closed successfully
+19-08-2021 05:53:40 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 05:53:40 - execute_query - INFO - <cassandra.cluster.ResultSet object at 0x000001E73BC95280>
+19-08-2021 05:53:40 - close_connection - INFO - connection closed successfully
+19-08-2021 05:53:40 - New login - INFO - b
+19-08-2021 05:54:10 - search_course_query - INFO - select course_name from university_admission_system.Course_Table;
+19-08-2021 05:54:11 - course_name_list - INFO - ['Data Science', 'ML', 'NLP']
+19-08-2021 05:54:11 - student_dashboard - INFO - expected token 'end of print statement', got '='
+19-08-2021 05:58:06 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 05:58:06 - execute_query - INFO - <cassandra.cluster.ResultSet object at 0x0000022A504A4790>
+19-08-2021 05:58:06 - close_connection - INFO - connection closed successfully
+19-08-2021 05:58:48 - New login - INFO - b
+19-08-2021 05:59:23 - search_course_query - INFO - select course_name from university_admission_system.Course_Table;
+19-08-2021 05:59:23 - course_name_list - INFO - ['Data Science', 'ML', 'NLP']
+19-08-2021 06:06:59 - create table query - INFO - CREATE TABLE IF NOT EXISTS university_admission_system.Registered_Course_Table (course_name text,std_first_name text ,std_last_name text,std_father_name text,std_email text,std_qualification text,applied_date timestamp, application_id uuid PRIMARY KEY,status text);
+19-08-2021 06:07:30 - create_table - INFO - CREATE TABLE IF NOT EXISTS university_admission_system.Registered_Course_Table (course_name text,std_first_name text ,std_last_name text,std_father_name text,std_email text,std_qualification text,applied_date timestamp, application_id uuid PRIMARY KEY,status text);
+19-08-2021 06:07:32 - apply_course_query - INFO - INSERT INTO university_admission_system.Registered_Course_Table (course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id,status) values('ML','test','user','father name','atul0003214@gmail.com','mba',toTimestamp(now()),uuid(),'Under Review');
+19-08-2021 06:07:32 - apply_course - INFO - Could not build url for endpoint 'student_dashboard'. Did you forget to specify values ['student_email']?
+19-08-2021 06:09:49 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 06:09:49 - execute_query - INFO - <cassandra.cluster.ResultSet object at 0x00000242B1BE0250>
+19-08-2021 06:09:49 - close_connection - INFO - connection closed successfully
+19-08-2021 06:10:24 - home - INFO - ('Unable to connect to any servers', {'4b9bf73f-ef34-40c0-878c-2f44fc396796-us-east-1.db.astra.datastax.com:29042:f4fc5302-1b00-442b-82ad-71faa72f8b7b': OperationTimedOut('errors=Timed out creating connection (5 seconds), last_host=None'), '4b9bf73f-ef34-40c0-878c-2f44fc396796-us-east-1.db.astra.datastax.com:29042:86f3aaeb-3e05-4dda-917a-6a2000289262': OperationTimedOut('errors=None, last_host=None'), '4b9bf73f-ef34-40c0-878c-2f44fc396796-us-east-1.db.astra.datastax.com:29042:7ec46f63-916e-4c5b-a7f3-d17ed1aa4aa9': OperationTimedOut('errors=None, last_host=None')})
+19-08-2021 06:11:21 - New login - INFO - b
+19-08-2021 06:12:10 - search_course_query - INFO - select course_name from university_admission_system.Course_Table;
+19-08-2021 06:12:11 - course_name_list - INFO - ['Data Science', 'ML', 'NLP']
+19-08-2021 06:13:02 - create table query - INFO - CREATE TABLE IF NOT EXISTS university_admission_system.Registered_Course_Table (course_name text,std_first_name text ,std_last_name text,std_father_name text,std_email text,std_qualification text,applied_date timestamp, application_id uuid PRIMARY KEY,status text);
+19-08-2021 06:13:46 - create_table - INFO - CREATE TABLE IF NOT EXISTS university_admission_system.Registered_Course_Table (course_name text,std_first_name text ,std_last_name text,std_father_name text,std_email text,std_qualification text,applied_date timestamp, application_id uuid PRIMARY KEY,status text);
+19-08-2021 06:13:46 - apply_course_query - INFO - INSERT INTO university_admission_system.Registered_Course_Table (course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id,status) values('NLP','Atul','Singh','Atul Singh','atul0003214@gmail.com','btech',toTimestamp(now()),uuid(),'Under Review');
+19-08-2021 06:18:17 - student_dashboard - INFO - 'NoneType' object is not iterable
+19-08-2021 06:21:08 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id,status from university_admission_system.Registered_Course_Table where std_email='atul0003214@gmail.com';
+19-08-2021 06:21:08 - faculty_status - INFO - 'NoneType' object is not iterable
+19-08-2021 06:31:54 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 06:31:54 - execute_query - INFO - <cassandra.cluster.ResultSet object at 0x0000028FCC68D9A0>
+19-08-2021 06:31:54 - close_connection - INFO - connection closed successfully
+19-08-2021 06:32:27 - New login - INFO - b
+19-08-2021 06:33:09 - search_course_query - INFO - select course_name from university_admission_system.Course_Table;
+19-08-2021 06:33:10 - course_name_list - INFO - ['Data Science', 'ML', 'NLP']
+19-08-2021 06:33:51 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id,status from university_admission_system.Registered_Course_Table where std_email='b' ALLOW FILTERING;
+19-08-2021 09:17:34 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 09:17:34 - execute_query - INFO - <cassandra.cluster.ResultSet object at 0x0000015D3A37C4F0>
+19-08-2021 09:17:34 - close_connection - INFO - connection closed successfully
+19-08-2021 09:18:50 - signup_submit - INFO - The user created successfully
+19-08-2021 09:21:19 - New login - INFO - atul0003214@gmail.com
+19-08-2021 09:21:49 - search_course_query - INFO - select course_name from university_admission_system.Course_Table;
+19-08-2021 09:21:50 - course_name_list - INFO - ['Data Science', 'ML', 'NLP']
+19-08-2021 09:22:48 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id,status from university_admission_system.Registered_Course_Table where std_email='atul0003214@gmail.com' ALLOW FILTERING;
+19-08-2021 09:31:58 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 09:31:58 - execute_query - INFO - <cassandra.cluster.ResultSet object at 0x000001A513CAE4C0>
+19-08-2021 09:31:58 - close_connection - INFO - connection closed successfully
+19-08-2021 09:32:27 - New login - INFO - a
+19-08-2021 09:35:22 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id,status from university_admission_system.Registered_Course_Table;
+19-08-2021 09:36:01 - update_course_status - INFO - UPDATE university_admission_system.Registered_Course_Table SET status = 'Interview Scheduled' WHERE id = '580a79d4-ac5e-44c0-8453-88fb499c82e1';
+19-08-2021 09:36:26 - home - INFO - ('Unable to connect to any servers', {'4b9bf73f-ef34-40c0-878c-2f44fc396796-us-east-1.db.astra.datastax.com:29042:f4fc5302-1b00-442b-82ad-71faa72f8b7b': OSError(None, "Tried connecting to [('54.196.58.228', 29042)]. Last error: timed out"), '4b9bf73f-ef34-40c0-878c-2f44fc396796-us-east-1.db.astra.datastax.com:29042:7ec46f63-916e-4c5b-a7f3-d17ed1aa4aa9': OSError(None, "Tried connecting to [('18.207.107.113', 29042)]. Last error: timed out"), '4b9bf73f-ef34-40c0-878c-2f44fc396796-us-east-1.db.astra.datastax.com:29042:86f3aaeb-3e05-4dda-917a-6a2000289262': gaierror(11001, 'getaddrinfo failed')})
+19-08-2021 09:36:26 - load_user - INFO - 'NoneType' object is not iterable
+19-08-2021 09:42:08 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 09:42:08 - execute_query - INFO - <cassandra.cluster.ResultSet object at 0x000001791EB03CA0>
+19-08-2021 09:42:08 - close_connection - INFO - connection closed successfully
+19-08-2021 09:42:30 - New login - INFO - a
+19-08-2021 09:43:20 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id,status from university_admission_system.Registered_Course_Table;
+19-08-2021 09:43:53 - update_course_status - INFO - UPDATE university_admission_system.Registered_Course_Table SET status = 'Interview Scheduled' WHERE id = '580a79d4-ac5e-44c0-8453-88fb499c82e1';
+19-08-2021 09:44:46 - home - INFO - Unable to connect to the metadata service at https://4b9bf73f-ef34-40c0-878c-2f44fc396796-us-east-1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+19-08-2021 09:44:46 - load_user - INFO - 'NoneType' object is not iterable
+19-08-2021 10:56:54 - home - INFO - Unable to connect to the metadata service at https://4b9bf73f-ef34-40c0-878c-2f44fc396796-us-east-1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+19-08-2021 10:56:54 - execute_query - INFO - 'DatabaseConnection' object has no attribute 'session'
+19-08-2021 10:56:54 - close_connection - INFO - connection closed successfully
+19-08-2021 10:56:54 - load_user - INFO - 'NoneType' object is not iterable
+19-08-2021 10:57:32 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 10:57:32 - New login - INFO - a
+19-08-2021 10:58:21 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id,status from university_admission_system.Registered_Course_Table;
+19-08-2021 10:59:18 - update_course_status - INFO - UPDATE university_admission_system.Registered_Course_Table SET status = 'Interview Scheduled' WHERE application_id = '580a79d4-ac5e-44c0-8453-88fb499c82e1';
+19-08-2021 11:41:35 - home - INFO - Unable to connect to the metadata service at https://4b9bf73f-ef34-40c0-878c-2f44fc396796-us-east-1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+19-08-2021 11:41:35 - execute_query - INFO - 'DatabaseConnection' object has no attribute 'session'
+19-08-2021 11:41:35 - close_connection - INFO - connection closed successfully
+19-08-2021 11:41:35 - load_user - INFO - 'NoneType' object is not iterable
+19-08-2021 11:41:57 - DatabaseConnection class - INFO - Request for connection started.
+19-08-2021 11:41:57 - New login - INFO - a
+19-08-2021 11:42:51 - faculty_status_query - INFO - select course_name,std_first_name,std_last_name,std_father_name,std_email,std_qualification,applied_date,application_id,status from university_admission_system.Registered_Course_Table;
+19-08-2021 11:43:28 - update_course_status - INFO - UPDATE university_admission_system.Registered_Course_Table SET status = 'Interview Scheduled' WHERE application_id = 73d751e9-d571-4edb-adab-56d06cf230dc;

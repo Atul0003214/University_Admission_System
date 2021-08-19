@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/index-style.css') }}">
+</head>
+
+
+<body>
+    <div class="parent-container">
+        <div class="left-side">
+            <div class="img-center">
+                <img src="{{url_for('static',filename='img/image1.jpg')}}">
+                <img src="{{url_for('static',filename='img/image.jpg')}}">
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="form-container">
+                <form action="/login" method="POST">
+
+                    <h1>Welcome To New Course</h1>
+                    <div class="shift_right">
+                        <p>take one step towards learning...</p>
+                    </div>
+                    <hr>
+
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+                    <hr>
+
+                    <button type="submit" class="registerbtn">Login</button>
+
+                    <hr>
+                    <p class="zero_marging">Don't have an account? <a href="/signup">create new account</a>.</p>
+
+
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
